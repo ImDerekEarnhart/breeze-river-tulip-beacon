@@ -1,0 +1,23 @@
+{
+  "schema": "guided-retry-artifact/1",
+  "submitted": false,
+  "loopId": "problem_loop_541ce2f1fac54e92",
+  "expected_state": "RETRY",
+  "expected_previous_event_hash": "5c339c5dbc74b6c01900a0aafef4db0f7e7422cc42e3f4a123b60b1df12d5c23",
+  "retry_authorized": true,
+  "change_summary": "Local education verifier added: exact semantic-label scoring on an operator-visible English smoke suite; student-only exam fail-closes without the teacher; teacher corrections stay quarantined until this scorer passes them; an NLP miss cannot issue LANGUAGE_LIMIT. Fast-path shallow verify remains for unmatched requests (still VERIFIER_LIMIT). Activation false. Not Core.",
+  "retained_falsifiers": [
+    "tower_is_only_rag",
+    "silent_teacher_substitution",
+    "teacher_cost_no_gain",
+    "retrieval_tower_coupled",
+    "self_promotion",
+    "unrestricted_shell"
+  ],
+  "diagnosedLimitation": "VERIFIER_LIMIT",
+  "repairKind": "verifier",
+  "candidateHash": "53f3b10fb903f3330152deefa2d885882ec4397252ad75145f8b88a3529c7449",
+  "activationRequested": false,
+  "coreApproved": false,
+  "note": "On disk only. Guided did not advance Core. candidateHash is Core-supplied, not a hash of these files."
+}

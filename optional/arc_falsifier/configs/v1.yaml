@@ -1,0 +1,7 @@
+seed: 20260819
+max_real_actions: 80
+max_action6_candidates: 24
+confidence_to_plan: 0.80
+prediction_match_threshold: 0.995
+recordings_dir: recordings
+memory_dir: results/memory

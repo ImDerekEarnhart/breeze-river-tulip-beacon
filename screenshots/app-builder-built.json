@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Hodgeform",
+      "hasCanvas": false,
+      "bodyTextLen": 2877,
+      "bodyTextHash": "5f8d3078f112f1742c41919e47a9e13208e5eeed152875dba5751ef57a7bc423",
+      "bodyTextPrefix": "Hodgeform GUIDED Hodgeform Guided · Core via MCP Console Archite",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Hodgeform",
+      "hasCanvas": false,
+      "bodyTextLen": 1249,
+      "bodyTextHash": "3494f926f47eaf7ba85011f7b3425b2cf3739ee98af5849ee1609c8c1808a4fe",
+      "bodyTextPrefix": "Hodgeform GUIDED CONTROL Guided Ask · analyze · govern — Core vi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

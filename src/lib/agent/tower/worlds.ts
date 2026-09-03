@@ -1,0 +1,121 @@
+import type { FiniteWorld } from "./fibers";
+
+/** Local Guided controls. Not Opaque Fiber v1.0.1 and not Hodgeform Core. */
+export const LOCAL_FIBER_WORLDS: FiniteWorld[] = [
+  {
+    id: "SUM-GT",
+    name: "Sum loses ordering",
+    domain: "finite arithmetic",
+    adversarialRole: "manifesto coarse hole",
+    expectedStatus: "HOLE",
+    piKeys: ["sum"],
+    oKey: "gt",
+    states: [
+      { id: "s00", features: { x: 0, y: 0, sum: 0, gt: 0 } },
+      { id: "s01", features: { x: 0, y: 1, sum: 1, gt: 0 } },
+      { id: "s10", features: { x: 1, y: 0, sum: 1, gt: 1 } },
+      { id: "s11", features: { x: 1, y: 1, sum: 2, gt: 0 } },
+    ],
+    candidates: [
+      { id: "P1", label: "x", keys: ["x"], provenance: "independent" },
+      { id: "P2", label: "y", keys: ["y"], provenance: "independent" },
+      { id: "P3", label: "sum", keys: ["sum"], provenance: "pi_derived" },
+    ],
+  },
+  {
+    id: "XOR-PAIR",
+    name: "Pair-only XOR recovery",
+    domain: "Boolean",
+    adversarialRole: "pair_only_recovery",
+    expectedStatus: "HOLE",
+    piKeys: ["const"],
+    oKey: "xor",
+    states: [
+      { id: "ab00", features: { a: 0, b: 0, const: 0, xor: 0 } },
+      { id: "ab01", features: { a: 0, b: 1, const: 0, xor: 1 } },
+      { id: "ab10", features: { a: 1, b: 0, const: 0, xor: 1 } },
+      { id: "ab11", features: { a: 1, b: 1, const: 0, xor: 0 } },
+    ],
+    candidates: [
+      { id: "P1", label: "a", keys: ["a"], provenance: "independent" },
+      { id: "P2", label: "b", keys: ["b"], provenance: "independent" },
+      { id: "P3", label: "const", keys: ["const"], provenance: "pi_derived" },
+    ],
+  },
+  {
+    id: "AB-OK",
+    name: "Target already in pi",
+    domain: "Boolean",
+    adversarialRole: "NO_HOLE_restraint",
+    expectedStatus: "NO_HOLE",
+    piKeys: ["a", "b"],
+    oKey: "a",
+    states: [
+      { id: "t00", features: { a: 0, b: 0 } },
+      { id: "t01", features: { a: 0, b: 1 } },
+      { id: "t10", features: { a: 1, b: 0 } },
+      { id: "t11", features: { a: 1, b: 1 } },
+    ],
+    candidates: [
+      { id: "P1", label: "unused z", keys: ["b"], provenance: "independent" },
+      { id: "P2", label: "a copy", keys: ["a"], provenance: "pi_derived" },
+    ],
+  },
+  {
+    id: "LEAK-O",
+    name: "Target-derived trap",
+    domain: "Boolean",
+    adversarialRole: "target_derived_leakage",
+    expectedStatus: "HOLE",
+    piKeys: ["const"],
+    oKey: "xor",
+    states: [
+      { id: "k00", features: { a: 0, b: 0, const: 0, xor: 0 } },
+      { id: "k01", features: { a: 0, b: 1, const: 0, xor: 1 } },
+      { id: "k10", features: { a: 1, b: 0, const: 0, xor: 1 } },
+      { id: "k11", features: { a: 1, b: 1, const: 0, xor: 0 } },
+    ],
+    candidates: [
+      { id: "P1", label: "copy of O", keys: ["xor"], provenance: "target_derived" },
+      { id: "P2", label: "a", keys: ["a"], provenance: "independent" },
+      { id: "P3", label: "b", keys: ["b"], provenance: "independent" },
+    ],
+  },
+  {
+    id: "CLOCK",
+    name: "Nuisance step counter",
+    domain: "state abstraction",
+    adversarialRole: "overseparation / nuisance",
+    expectedStatus: "NO_HOLE",
+    piKeys: ["a", "clock"],
+    oKey: "a",
+    states: [
+      { id: "c0", features: { a: 0, clock: 0 } },
+      { id: "c1", features: { a: 0, clock: 1 } },
+      { id: "c2", features: { a: 1, clock: 0 } },
+      { id: "c3", features: { a: 1, clock: 1 } },
+    ],
+    candidates: [
+      { id: "P1", label: "clock", keys: ["clock"], provenance: "independent" },
+    ],
+  },
+  {
+    id: "NONE",
+    name: "Hole with no admissible channel",
+    domain: "finite arithmetic",
+    adversarialRole: "no_supplied_recovery",
+    expectedStatus: "HOLE",
+    piKeys: ["sum"],
+    oKey: "gt",
+    states: [
+      { id: "n00", features: { x: 0, y: 0, sum: 0, gt: 0 } },
+      { id: "n01", features: { x: 0, y: 1, sum: 1, gt: 0 } },
+      { id: "n10", features: { x: 1, y: 0, sum: 1, gt: 1 } },
+      { id: "n11", features: { x: 1, y: 1, sum: 2, gt: 0 } },
+    ],
+    candidates: [
+      { id: "P1", label: "gt copy", keys: ["gt"], provenance: "target_derived" },
+      { id: "P2", label: "sum", keys: ["sum"], provenance: "pi_derived" },
+    ],
+  },
+];

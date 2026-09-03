@@ -1,0 +1,20 @@
+import { chromium } from "playwright";
+const browser = await chromium.launch({ headless: true });
+const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
+await page.goto("http://127.0.0.1:8080/", { waitUntil: "networkidle" });
+await page.getByRole("button", { name: /Clear/i }).click().catch(() => {});
+await page.waitForTimeout(200);
+const box = page.locator("textarea");
+await box.fill("Use the sandbox to compute the future value of $10,000 compounded at 7% annually for 12 years.");
+await page.getByRole("button", { name: "Send" }).click();
+await page.waitForFunction(() => {
+  const t = document.body.innerText;
+  return /22521|Sandbox result|ok\b/i.test(t) && !/Worker is running/.test(t);
+}, { timeout: 20000 });
+await page.waitForTimeout(1500);
+await page.screenshot({ path: "/workspace/screenshots/console-sandbox.png" });
+const text = await page.evaluate(() => document.body.innerText);
+console.log(text.match(/22521[\d.]*|Sandbox result[^\n]*|POLICY|denied|error/gi));
+console.log("---");
+console.log(text.slice(text.indexOf("Use the sandbox"), text.indexOf("FAST LOOP")).slice(0, 1200));
+await browser.close();

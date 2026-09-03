@@ -1,0 +1,26 @@
+Reasoning and Decision Ledger
+
+Scope notice
+
+This ledger records scientific decisions, hypothesis updates, explicit falsification logic, and observable tool/compute decisions. It does not contain private chain-of-thought, hidden system instructions, or internal token-by-token reasoning. The aim is to preserve enough rationale for another researcher to understand why each experiment was run and why claims were narrowed or superseded.
+
+1. Separate channel geometry from internal chaos. Signal collapse under channel scrambling and recovery under channel-aligned readout suggested that readout/channel geometry, not internal chaos alone, was the dominant variable. This motivated singular-value based invariants.
+2. Test effective rank prospectively rather than accepting an exploratory fit. Effective rank looked promising in an early narrow N=10 sweep; prospective tests did not establish it as the final law.
+3. Promote the third-moment candidate only provisionally. The 1/<s^3> relation transferred impressively over narrow spectra and sizes, but it had too little dynamic range to justify ‘law’ language.
+4. Run a broad-spectrum stress test specifically designed to break the candidate. The wide N=6 tournament used 100 spectra with two permutations and unseen disorder seeds. This refuted the third-moment formula quantitatively while preserving its strong ordering.
+5. Do not rescue the failed law. A two-moment identity-anchored estimator was fit on development data only and then frozen. The original third-moment refutation remained in the record.
+6. Demand cross-size transfer without refitting. The same N=6-derived coefficients passed N=8 and then N=10 prospective tests, which substantially strengthened the spectral-geometry interpretation.
+7. Attack parameter universality before theorizing constants. A beta-mu grid showed that beta dependence was tiny in the tested range but mu dependence was material; therefore the coefficients are not parameter-universal.
+8. Reject post-hoc mu repairs that fail prospectively. Both a one-parameter saturation model and a simple crossover story were frozen and failed.
+9. Inspect residual structure instead of adding more polynomial moments. The failures concentrated in spectra with near-null singular directions. This motivated matched-high-moment interventions.
+10. Turn correlation into an intervention. Pairs were constructed with matched m3/m4 but separated low-tail geometry. A prospectively frozen higher-geometric-mean -> higher-transmission direction replicated at N=8 and transferred to N=10.
+11. Apply the Unaskable Questions framework. The language pi0=(p2,p3,p4) was frozen; exact fibers were constructed before transport. A strong >=0.02 practical HOLE threshold failed, so the correct claim became a smaller but highly reproducible representational gap.
+12. Test minimality instead of promoting geometric mean by association. Tournament 003 held each candidate singleton fixed together with p2,p3,p4. Minimum singular value and inverse condition number failed closure; geometric mean/log-det and a soft log-resolvent succeeded.
+13. Treat multiple survivors as an equivalence class. Because GM and the lambda=0.05 log-resolvent are closely related and both closed the residual, unique causality is not established.
+14. Keep hardware in its proper evidentiary role. The QPU pilot supports structural spectrum ordering and exact-simulation transfer at one small size/device; its uncertainty is too large to discriminate competing close formulas.
+15. Preserve implementation failures as part of the apparatus record. Gauge dependence, exact-gate Trotter validation, visibility-weighting bias, an index-resampling bootstrap error, cost-model error, a serialization-only patch, Orbita freeze/reveal service failures, and environment resets were logged rather than silently erased.
+16. Separate evidentiary strength from maximum possible ceiling. The collective spectral-floor result currently has the strongest direct physics evidence, while the representational-hole discovery architecture has the larger methodological ceiling if it generalizes across real scientific domains.
+17. Treat breakthrough language as an outlook, not a result. High-upside scenarios are recorded separately from supported claims so speculative importance does not leak into the evidentiary sections.
+18. Prioritize survivor specificity. Because geometric mean/log-det and the lambda=0.05 soft log-resolvent both close the residual, the next decisive intervention is reciprocal exact matching: hold one survivor fixed while separating the other, then reverse the test.
+19. Require real-domain and null-calibrated validation for the discovery architecture. A transformative methodological claim would require calibrated family-wise false-positive behavior, multiple unrelated physical/scientific domains, and independent replication.
+20. Treat Orbita reveal state as governance metadata, not extra scientific evidence. Tournament 003 is officially revealed under the committed hash, but reveal status strengthens auditability rather than the empirical effect size

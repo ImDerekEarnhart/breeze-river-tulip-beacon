@@ -1,0 +1,173 @@
+{
+  "local_protocol": "Exact Spectral-Fiber Unaskable-Question Tournament 002 \u2014 locally frozen execution copy",
+  "orbita_tournament_id": "5e049619-ca04-4d4c-83c1-2f80635e8a69",
+  "orbita_review_hash": "b1c833eed7e74909bfae3f238478a74cc7bad5058b6e4cee3b3a1720f3217183",
+  "orbita_server_freeze_status": "BLOCKED_HTTP_403",
+  "model_lock": {
+    "q": 4,
+    "J": 1.0,
+    "beta": 8.0,
+    "mu": 0.2,
+    "N8_seeds": [
+      90,
+      91
+    ],
+    "N10_seed": 92,
+    "time_grid": "0..10 step 0.5"
+  },
+  "pi0": [
+    "mean(s^2)",
+    "mean(s^3)",
+    "mean(s^4)"
+  ],
+  "moment_match_abs_tolerance": 1e-10,
+  "pair_counts": {
+    "N8": 12,
+    "N10": 8
+  },
+  "candidate_primitives": [
+    "minimum_singular_value",
+    "inverse_condition_number",
+    "geometric_mean_logdet",
+    "harmonic_mean",
+    "low_tail_log_resolvent_lambda_0.02",
+    "low_tail_log_resolvent_lambda_0.05",
+    "low_tail_log_resolvent_lambda_0.10",
+    "low_tail_log_resolvent_lambda_0.20"
+  ],
+  "direction_rule": "For each primitive, predict sign(Delta R)=sign(Delta primitive); no fitted coefficient.",
+  "reviewed_scoring": {
+    "hole_N8": "each seed >=8/12 abs gaps >=0.02 and median abs gap>=0.02",
+    "hole_N10": ">=5/8 abs gaps>=0.02 and median abs gap>=0.02",
+    "primitive_N8": ">=10/12 sign correct on each seed",
+    "primitive_N10": ">=6/8 sign correct",
+    "artifact": "1000 deterministic member-label shuffles, seed 20260815, one-sided p<0.05",
+    "recovery": ">=5/6 recovery triplets shrink |Delta R| when moving MID toward HIGH/LOW within same exact pi0 fiber"
+  },
+  "implementation_note": "Recovery triplets are N=8 and monotone in every frozen primitive by construction; both unseen N=8 seeds are reported. This does not relax any reviewed threshold.",
+  "pairs_sha256": "fad061160c80345879afe285c97d9f6bc69582f0358fae8464d67fff0c267ca4",
+  "triplets_sha256": "5db8a2cbbde73d40fc0e9e80d84ef745630fa696b754ac9fe2461d247fc7589d",
+  "pair_audit": [
+    {
+      "N": 8,
+      "pair_id": 0,
+      "max_moment_abs_delta": 0.0,
+      "max_simple_ratio": 2.1966415949496425
+    },
+    {
+      "N": 8,
+      "pair_id": 1,
+      "max_moment_abs_delta": 6.661338147750939e-16,
+      "max_simple_ratio": 2.7943413463229696
+    },
+    {
+      "N": 8,
+      "pair_id": 2,
+      "max_moment_abs_delta": 2.220446049250313e-16,
+      "max_simple_ratio": 2.1516854481576324
+    },
+    {
+      "N": 8,
+      "pair_id": 3,
+      "max_moment_abs_delta": 0.0,
+      "max_simple_ratio": 2.012367796129398
+    },
+    {
+      "N": 8,
+      "pair_id": 4,
+      "max_moment_abs_delta": 2.220446049250313e-16,
+      "max_simple_ratio": 2.8250186973881783
+    },
+    {
+      "N": 8,
+      "pair_id": 5,
+      "max_moment_abs_delta": 0.0,
+      "max_simple_ratio": 2.6851970380973054
+    },
+    {
+      "N": 8,
+      "pair_id": 6,
+      "max_moment_abs_delta": 1.865174681370263e-14,
+      "max_simple_ratio": 2.0163727889498153
+    },
+    {
+      "N": 8,
+      "pair_id": 7,
+      "max_moment_abs_delta": 2.220446049250313e-16,
+      "max_simple_ratio": 2.032096370429284
+    },
+    {
+      "N": 8,
+      "pair_id": 8,
+      "max_moment_abs_delta": 2.220446049250313e-16,
+      "max_simple_ratio": 2.3930756924642322
+    },
+    {
+      "N": 8,
+      "pair_id": 9,
+      "max_moment_abs_delta": 2.220446049250313e-16,
+      "max_simple_ratio": 2.0696810522329776
+    },
+    {
+      "N": 8,
+      "pair_id": 10,
+      "max_moment_abs_delta": 1.7763568394002505e-15,
+      "max_simple_ratio": 2.116103520401326
+    },
+    {
+      "N": 8,
+      "pair_id": 11,
+      "max_moment_abs_delta": 0.0,
+      "max_simple_ratio": 2.170780777229518
+    },
+    {
+      "N": 10,
+      "pair_id": 0,
+      "max_moment_abs_delta": 2.220446049250313e-16,
+      "max_simple_ratio": 2.171421151332062
+    },
+    {
+      "N": 10,
+      "pair_id": 1,
+      "max_moment_abs_delta": 2.220446049250313e-16,
+      "max_simple_ratio": 2.727900646154787
+    },
+    {
+      "N": 10,
+      "pair_id": 2,
+      "max_moment_abs_delta": 1.1102230246251565e-16,
+      "max_simple_ratio": 2.813083807533411
+    },
+    {
+      "N": 10,
+      "pair_id": 3,
+      "max_moment_abs_delta": 2.220446049250313e-16,
+      "max_simple_ratio": 3.020824651157397
+    },
+    {
+      "N": 10,
+      "pair_id": 4,
+      "max_moment_abs_delta": 2.220446049250313e-16,
+      "max_simple_ratio": 2.881488092983784
+    },
+    {
+      "N": 10,
+      "pair_id": 5,
+      "max_moment_abs_delta": 0.0,
+      "max_simple_ratio": 2.6001734853667915
+    },
+    {
+      "N": 10,
+      "pair_id": 6,
+      "max_moment_abs_delta": 2.220446049250313e-16,
+      "max_simple_ratio": 2.1812985130746156
+    },
+    {
+      "N": 10,
+      "pair_id": 7,
+      "max_moment_abs_delta": 2.220446049250313e-16,
+      "max_simple_ratio": 2.6849681017907523
+    }
+  ],
+  "local_manifest_sha256": "f1cf4df73ac9b7d3a5035e51073b3c7dea0933aec4f2fb30518334ceb0dd0b5b"
+}

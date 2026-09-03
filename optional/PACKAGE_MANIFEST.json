@@ -1,0 +1,534 @@
+{
+  "contains_hodgeform_core": false,
+  "files": [
+    {
+      "bytes": 3061,
+      "path": "README_GUIDED_INTEGRATION.md",
+      "sha256": "7ae16c09ffe37880d287fe34ed7e906b6e533bae8efe04da76ae83692527d2af"
+    },
+    {
+      "bytes": 5523,
+      "path": "attachments/orb1_step_zero_exact_check.py",
+      "sha256": "c511f762945346574d2b9704f045c0fdcccc600422d0d02b4edbccc655e5e76a"
+    },
+    {
+      "bytes": 11263,
+      "path": "candidate_adapters/hodgeform/mcp.server.ts",
+      "sha256": "02182ebbe666c6a875fa68af545d4e772cc6946aac61826f5950850b0559ba15"
+    },
+    {
+      "bytes": 3472,
+      "path": "candidate_adapters/hodgeform/oauth.server.ts",
+      "sha256": "82e6e30421c19b9d1fb7fa0de61e8339cfe7b9a760793bbe289be71b27d3d694"
+    },
+    {
+      "bytes": 3274,
+      "path": "candidate_adapters/hodgeform/protocol.ts",
+      "sha256": "bcaba33338bcab92e15d6bd174ec6dfd0d2e396cbe9a1d75cd7ebbfb1293cfba"
+    },
+    {
+      "bytes": 37,
+      "path": "optional_plugins/arc_falsifier/.pytest_cache/.gitignore",
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd"
+    },
+    {
+      "bytes": 191,
+      "path": "optional_plugins/arc_falsifier/.pytest_cache/CACHEDIR.TAG",
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4"
+    },
+    {
+      "bytes": 302,
+      "path": "optional_plugins/arc_falsifier/.pytest_cache/README.md",
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad"
+    },
+    {
+      "bytes": 615,
+      "path": "optional_plugins/arc_falsifier/.pytest_cache/v/cache/nodeids",
+      "sha256": "a9a06cb977c2cbbab590026959a7749039f16243a3ab712054e1408d759f4d48"
+    },
+    {
+      "bytes": 30,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__init__.py",
+      "sha256": "51f1ee451a81184b2513c396deb9d90b05c2ec480e1b5f8504185fea1e4398d4"
+    },
+    {
+      "bytes": 242,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "dda78ea3fe50205de7a6b66c78e2a987214fb498197e15fe8ed24c58d0b5b8ba"
+    },
+    {
+      "bytes": 5440,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/adapter.cpython-313.pyc",
+      "sha256": "8f4445f3bd949255d198bc357ad9c404f40668f8f7af5ee65e1ba6d2e955eb95"
+    },
+    {
+      "bytes": 10368,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/agent.cpython-313.pyc",
+      "sha256": "7b037938cdb3bd9c3c0aff9833f2d19208c6849cd6ae5430ce3ed0c69cfdbee6"
+    },
+    {
+      "bytes": 7187,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/dynamics_tournament.cpython-313.pyc",
+      "sha256": "1b8c56dce10b8673396408dcfe9b5a7f15b988294e857ed341abd726dc0c3928"
+    },
+    {
+      "bytes": 2399,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/executor.cpython-313.pyc",
+      "sha256": "e9a2f5449e96f730ae96a6b2b59d0cd2edf3f1a065f11d6cdb2136cd8e7c5f44"
+    },
+    {
+      "bytes": 3311,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/goals.cpython-313.pyc",
+      "sha256": "84d1b9748deeae887247b7bffd0b17b3179dfefc6ceffc22739aa3f16499ceb9"
+    },
+    {
+      "bytes": 12681,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/hypotheses.cpython-313.pyc",
+      "sha256": "a9f66e4cd8c0ef0a984f043f167fddf196cc2a21fc9cba5de81ae8d165277b2f"
+    },
+    {
+      "bytes": 5310,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/ledger.cpython-313.pyc",
+      "sha256": "046bea1aba35e35b4d9ba90e4e734961b6ab4a7ebb073b68d2319496d2cc4ca9"
+    },
+    {
+      "bytes": 6745,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/perception.cpython-313.pyc",
+      "sha256": "5fdb99601e7ed60d8c304dfa61b0d245d235cfe06b543df21a100a6d464fbbfb"
+    },
+    {
+      "bytes": 13197,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/representation.cpython-313.pyc",
+      "sha256": "f116d4b56f79cee1938f7da77ddafa01494ab3ff918f5ef490ce6eb93baca1e6"
+    },
+    {
+      "bytes": 3706,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/representation_experiment.cpython-313.pyc",
+      "sha256": "71c4d6cd5da1bb5ff775885369765e9a4169c3f81918b619e6932e9533676bbe"
+    },
+    {
+      "bytes": 5506,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/toy_env.cpython-313.pyc",
+      "sha256": "f5053bd33207d90751e6f40d727433fa7f74acb25bba3fc42cbb7b290367e443"
+    },
+    {
+      "bytes": 3343,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/types.cpython-313.pyc",
+      "sha256": "99d723f99cafbcdadee16de8d6149d077f8732cc15a82819cb3ed1d8842c3a0d"
+    },
+    {
+      "bytes": 3299,
+      "path": "optional_plugins/arc_falsifier/arc_agent/__pycache__/world_model.cpython-313.pyc",
+      "sha256": "94a57c8e8b09904ac7c4ed53da133692eba7bd524e80fb63524da451cbf6f044"
+    },
+    {
+      "bytes": 2235,
+      "path": "optional_plugins/arc_falsifier/arc_agent/adapter.py",
+      "sha256": "fa3d8feaae79fd5b487efcf9056d76aa4135cee118d2837811283d3fcfe345d5"
+    },
+    {
+      "bytes": 5137,
+      "path": "optional_plugins/arc_falsifier/arc_agent/agent.py",
+      "sha256": "b81b9ca8e36ac32e2fce09d254a75820c27614fa165a4c1012da13eef681977c"
+    },
+    {
+      "bytes": 3589,
+      "path": "optional_plugins/arc_falsifier/arc_agent/dynamics_tournament.py",
+      "sha256": "2942f8ac3973f4664368444e330090dced30805530d9525d089e703dd4d5bd97"
+    },
+    {
+      "bytes": 784,
+      "path": "optional_plugins/arc_falsifier/arc_agent/eval.py",
+      "sha256": "a386fff10c8d15baf4bf6fd91ec4cb4a088bbd82b32d8445c67f0011ec8c453c"
+    },
+    {
+      "bytes": 897,
+      "path": "optional_plugins/arc_falsifier/arc_agent/executor.py",
+      "sha256": "1c99b10afcf8811008b67641c9c9b374865693c082bf045c2c3c755b9d67f8ce"
+    },
+    {
+      "bytes": 896,
+      "path": "optional_plugins/arc_falsifier/arc_agent/experiments.py",
+      "sha256": "e58c0be16642d3b90856161043b5402b69970f1cbdd56a8c957888d810833126"
+    },
+    {
+      "bytes": 1118,
+      "path": "optional_plugins/arc_falsifier/arc_agent/goals.py",
+      "sha256": "afe44f02a2e14efe6a5eb95d06e33991ee313bdb077c45d3cd72a4d6c7b0ac28"
+    },
+    {
+      "bytes": 5315,
+      "path": "optional_plugins/arc_falsifier/arc_agent/hypotheses.py",
+      "sha256": "ceb50bc6f33e4adaeaece74c85694ab073506ebbeec6cc1471016ad7a8a8020d"
+    },
+    {
+      "bytes": 2539,
+      "path": "optional_plugins/arc_falsifier/arc_agent/ledger.py",
+      "sha256": "90afc3f9ffdc73c93f23d47be002fc4acecd610859188e8456db960cc9236ded"
+    },
+    {
+      "bytes": 478,
+      "path": "optional_plugins/arc_falsifier/arc_agent/memory.py",
+      "sha256": "a32291206f12e84940ac401f1f06215aff9cdff429086a352af2f9229e87d603"
+    },
+    {
+      "bytes": 1621,
+      "path": "optional_plugins/arc_falsifier/arc_agent/online_repair_experiment.py",
+      "sha256": "4d15736cafdc92513a146208a73028f028409219bddc0f5be541d5d105cfad0b"
+    },
+    {
+      "bytes": 3045,
+      "path": "optional_plugins/arc_falsifier/arc_agent/perception.py",
+      "sha256": "58700083eb82e09d61849724e341fd6ef1fbbc96407fe98e9d98554f303dc7e9"
+    },
+    {
+      "bytes": 655,
+      "path": "optional_plugins/arc_falsifier/arc_agent/planner.py",
+      "sha256": "6e036807219924b3f98f1613e1e1fdce56f101e236174902f1d8668ff67e2440"
+    },
+    {
+      "bytes": 5019,
+      "path": "optional_plugins/arc_falsifier/arc_agent/representation.py",
+      "sha256": "cddd0ccedfc466bd38fc860c6cd8f83387e72e8693352643be4e1650ed5f36ca"
+    },
+    {
+      "bytes": 1696,
+      "path": "optional_plugins/arc_falsifier/arc_agent/representation_experiment.py",
+      "sha256": "a82a382405f1d5b66ade3ccfcade869cc2bbb76006502bcabb8158b5f121d02b"
+    },
+    {
+      "bytes": 2260,
+      "path": "optional_plugins/arc_falsifier/arc_agent/toy_env.py",
+      "sha256": "1333412bd491b8b341480c9a2ee5d3815b11b3d33c411593d736cba5a1a636ae"
+    },
+    {
+      "bytes": 1282,
+      "path": "optional_plugins/arc_falsifier/arc_agent/types.py",
+      "sha256": "f0eab2f65dce5c9761c56c28ac7c5f811fbae360536a30d3e08dba7f974cf951"
+    },
+    {
+      "bytes": 1358,
+      "path": "optional_plugins/arc_falsifier/arc_agent/world_model.py",
+      "sha256": "b22f6544bb42e6847844178e3b2a500e5b40c3ead9048946bc4dfed83eb70132"
+    },
+    {
+      "bytes": 176,
+      "path": "optional_plugins/arc_falsifier/configs/v1.yaml",
+      "sha256": "98cb145441142ce79b5f7831ae45675d280274d9722d44f057a0134f81329d29"
+    },
+    {
+      "bytes": 350,
+      "path": "optional_plugins/arc_falsifier/pyproject.toml",
+      "sha256": "6af49d7b154ecb38b0c022f52a0691037dd6ef20dd0e1b22393cd7e91cda3430"
+    },
+    {
+      "bytes": 4185,
+      "path": "optional_plugins/arc_falsifier/tests/__pycache__/test_adapter.cpython-313-pytest-9.0.2.pyc",
+      "sha256": "0ba9dd0aca89b1afac11ae6a080b487a99ba624a4ba789772ae6feef320fcec4"
+    },
+    {
+      "bytes": 2751,
+      "path": "optional_plugins/arc_falsifier/tests/__pycache__/test_agent.cpython-313-pytest-9.0.2.pyc",
+      "sha256": "61abed3081f64755edd7f4da6f293ad14415bef1d31e50c4d7ab3a1c16229e3f"
+    },
+    {
+      "bytes": 10665,
+      "path": "optional_plugins/arc_falsifier/tests/__pycache__/test_core.cpython-313-pytest-9.0.2.pyc",
+      "sha256": "57689f2b61447e4d1f47d1176d2d2237fad300f4ea265e5c196c026b1672e478"
+    },
+    {
+      "bytes": 1987,
+      "path": "optional_plugins/arc_falsifier/tests/__pycache__/test_dynamics_tournament.cpython-313-pytest-9.0.2.pyc",
+      "sha256": "dc3594643b5ba05d32c5cd28b4b126b2ab6360f06107fbe2419b211aa58589b7"
+    },
+    {
+      "bytes": 3765,
+      "path": "optional_plugins/arc_falsifier/tests/__pycache__/test_prediction_semantics.cpython-313-pytest-9.0.2.pyc",
+      "sha256": "5ca09bb951374d49f3f441bdd201cf625d204c2047a446bdd90eaeaf3ee3ed00"
+    },
+    {
+      "bytes": 13750,
+      "path": "optional_plugins/arc_falsifier/tests/__pycache__/test_representation.cpython-313-pytest-9.0.2.pyc",
+      "sha256": "e00cfbd7388fbb592a3e207d2dcd142c827a036163e737896f2409266673f590"
+    },
+    {
+      "bytes": 524,
+      "path": "optional_plugins/arc_falsifier/tests/test_adapter.py",
+      "sha256": "41e11a9194e9a91df49b324303a831953448c323e089c63a16590ff76afe4942"
+    },
+    {
+      "bytes": 256,
+      "path": "optional_plugins/arc_falsifier/tests/test_agent.py",
+      "sha256": "1408b1c2731387314c07e09d82d4fa607398c8702a058d0b13a5d2ef527d114e"
+    },
+    {
+      "bytes": 1077,
+      "path": "optional_plugins/arc_falsifier/tests/test_core.py",
+      "sha256": "3c816942697f777686720f67a6926b2e1bfb5b197cb687ac8aede6a2e3dac096"
+    },
+    {
+      "bytes": 303,
+      "path": "optional_plugins/arc_falsifier/tests/test_dynamics_tournament.py",
+      "sha256": "b6f06e3de5859769e59730127e8f7a82af273e6863e8a09b302b8082e81d5118"
+    },
+    {
+      "bytes": 715,
+      "path": "optional_plugins/arc_falsifier/tests/test_prediction_semantics.py",
+      "sha256": "78584bff7968f8198befcf7f380bc06b79afa782ed846a0578392de8e50978ea"
+    },
+    {
+      "bytes": 1230,
+      "path": "optional_plugins/arc_falsifier/tests/test_representation.py",
+      "sha256": "a6b587b7d7d502352e040d87e14c52423388fa371ec0861861c8b81a0aad74c1"
+    },
+    {
+      "bytes": 4156,
+      "path": "optional_tools/ha_ir/ha_ir_v02.py",
+      "sha256": "03265f643587e7a24b91dc8c7216aa2692d3d293febb64199473399f49756075"
+    },
+    {
+      "bytes": 13295,
+      "path": "optional_tools/ha_ir/ha_ir_v03.py",
+      "sha256": "f387d5a790f17177b6ffd6f8dfff1c79ef815a42c231b3eae9c9ffb5f09f9891"
+    },
+    {
+      "bytes": 11595,
+      "path": "optional_tools/ha_ir/run_ha_ir_v02_benchmark.py",
+      "sha256": "9f249e7468affdfe4316b1e0dd1fc8a38dd701d32b53072479fd86e6c57d016e"
+    },
+    {
+      "bytes": 224,
+      "path": "optional_tools/ha_ir/run_ha_ir_v03_extension_benchmark.py",
+      "sha256": "bc94b72d3095b8d97e409008e4a1d6dce16a8cf7f1d3e2253f77510d480fa435"
+    },
+    {
+      "bytes": 1515,
+      "path": "optional_tools/orb1_python/orb1_operator_admission_check_v1.json",
+      "sha256": "5448ccfff8192d1c3c6c9839524f08d8e82c546fb852fdef1d46ff5e52451af9"
+    },
+    {
+      "bytes": 8409,
+      "path": "optional_tools/orb1_python/orb1_operator_admission_check_v1.py",
+      "sha256": "1a68d04e42456473698cc1af9122df1921b85fe891d9c25d0bfd15f1499c3234"
+    },
+    {
+      "bytes": 5523,
+      "path": "optional_tools/orb1_python/orb1_step_zero_exact_check.py",
+      "sha256": "c511f762945346574d2b9704f045c0fdcccc600422d0d02b4edbccc655e5e76a"
+    },
+    {
+      "bytes": 15582,
+      "path": "optional_tools/spectral_fiber_frozen/FROZEN_EXACT_FIBER_PAIRS.csv",
+      "sha256": "fad061160c80345879afe285c97d9f6bc69582f0358fae8464d67fff0c267ca4"
+    },
+    {
+      "bytes": 6984,
+      "path": "optional_tools/spectral_fiber_frozen/FROZEN_RECOVERY_TRIPLETS.csv",
+      "sha256": "5db8a2cbbde73d40fc0e9e80d84ef745630fa696b754ac9fe2461d247fc7589d"
+    },
+    {
+      "bytes": 4863,
+      "path": "optional_tools/spectral_fiber_frozen/LOCAL_FROZEN_EXECUTION_MANIFEST.json",
+      "sha256": "54c3e2c3b4c03fffcc5766df9a8ad7255ad1f2e2da2fde0367c66f4eb22ce1f4"
+    },
+    {
+      "bytes": 695,
+      "path": "optional_tools/spectral_fiber_frozen/REVIEW_APPROVAL_RECEIPT.json",
+      "sha256": "0dd507b00332a03457bf4b7d068a231d4418aa91338e59fe92a04f28d0aa1e4e"
+    },
+    {
+      "bytes": 11198,
+      "path": "optional_tools/spectral_fiber_frozen/run_exact_spectral_fiber_test.py",
+      "sha256": "0b89d77c086d8aa65a708332f07ae4b18a569527d80767a2cb6ecc0859b7b4ca"
+    },
+    {
+      "bytes": 3243,
+      "path": "overlay/scripts/hodgeform-adapter.test.mjs",
+      "sha256": "95331e5acd93265d92093bcd43fb2687175e835e1fa9c3d76d71cde0d5197214"
+    },
+    {
+      "bytes": 2363,
+      "path": "overlay/scripts/hodgeform-parity.mjs",
+      "sha256": "a6ade8c316d8539bfd245ba0fe8732543a9fb6c3f9a8cf3d6dedbe57d4f14b2a"
+    },
+    {
+      "bytes": 4408,
+      "path": "overlay/scripts/orb1.test.mjs",
+      "sha256": "a9ee652570ab7f83f94a1dbbce9fb36cc29bcf393642fa6d91e451502999dfe4"
+    },
+    {
+      "bytes": 2895,
+      "path": "overlay/scripts/receipts.test.mjs",
+      "sha256": "6afe6663dd4473b6a1e6e04ffa7a392ed2697847e630719f2b0a1e1609c34449"
+    },
+    {
+      "bytes": 3915,
+      "path": "overlay/scripts/tower-fibers.test.mjs",
+      "sha256": "82af75e5e97188d52518fc9b73e284193637c2d699370dc592af95a315e02677"
+    },
+    {
+      "bytes": 1632,
+      "path": "overlay/src/lib/agent/flm/README.md",
+      "sha256": "f3149d0defd1ab4eaccc1340d10a697f36ca3de9d2ea32d17213a5225904f3a9"
+    },
+    {
+      "bytes": 1074,
+      "path": "overlay/src/lib/agent/flm/admission.server.ts",
+      "sha256": "08ee37258e13d2253d210bca88bbffa55bf47bc2f38498c95e3474753f761e73"
+    },
+    {
+      "bytes": 546,
+      "path": "overlay/src/lib/agent/flm/canonical.ts",
+      "sha256": "397a4dbb548c08464c1f4b86eb5a3e4ecca9bc601d81e39907d000d5d28e8793"
+    },
+    {
+      "bytes": 1898,
+      "path": "overlay/src/lib/agent/flm/delta.server.ts",
+      "sha256": "391a22733ecfa93019b793fd02b29754b1574506630b86759ee65f516153456e"
+    },
+    {
+      "bytes": 220,
+      "path": "overlay/src/lib/agent/flm/hash.server.ts",
+      "sha256": "3d1cfae15bfccdf8a622b26f54ffa732cb5329ba9ec8a5e4b47ee397aa4e6d0e"
+    },
+    {
+      "bytes": 1709,
+      "path": "overlay/src/lib/agent/flm/identifiability.ts",
+      "sha256": "7d2e83e4eecd24f8c71246686c3c1c15940d80463782744e58fc4b8c680c327a"
+    },
+    {
+      "bytes": 216,
+      "path": "overlay/src/lib/agent/flm/index.ts",
+      "sha256": "b8193b1c7dcc9d11b9025063db66098dc0e6a8200d1e00197a6321589de8cabb"
+    },
+    {
+      "bytes": 822,
+      "path": "overlay/src/lib/agent/flm/ledger.ts",
+      "sha256": "6f6a8de4fd6e87181a68df68739557bc1417eacfeac17837e504a51f2ed7efb7"
+    },
+    {
+      "bytes": 4604,
+      "path": "overlay/src/lib/agent/flm/partition.ts",
+      "sha256": "8401fc431bb5f7ed2d2cd93faa9b47bbd5ccd1a0f2ee97e737c6e61e4071286c"
+    },
+    {
+      "bytes": 1012,
+      "path": "overlay/src/lib/agent/flm/probe.ts",
+      "sha256": "85d4c05ad6e1c7d17f6be065109a1187a392e60da7e21c1c1e679a48b20efd04"
+    },
+    {
+      "bytes": 5533,
+      "path": "overlay/src/lib/agent/flm/registry.server.ts",
+      "sha256": "4f16a3c5ba5bd2e7dd45e1668e66ef5894063c2a37b591afde21f5302ad9fbe9"
+    },
+    {
+      "bytes": 1501,
+      "path": "overlay/src/lib/agent/flm/router.ts",
+      "sha256": "59db21a741569dd4198384b2e2f434a01bb6c6a08fd84f0d2e361bf71ec7a080"
+    },
+    {
+      "bytes": 146,
+      "path": "overlay/src/lib/agent/flm/server.ts",
+      "sha256": "5b4bce4152ffa2dd97c59e8f36a91d885d3f428af56151c56f95f76e2733bb9a"
+    },
+    {
+      "bytes": 3426,
+      "path": "overlay/src/lib/agent/flm/types.ts",
+      "sha256": "b703adb066fa8a350ead427c3398f0debfb3787c2ea52e63f66f07dd839ab8b4"
+    },
+    {
+      "bytes": 4761,
+      "path": "overlay/src/lib/agent/orb1/admit.ts",
+      "sha256": "4584375f47a9a93722d2b7b3055a76b5213ee8923be500a5e22e3b3d28c8fe28"
+    },
+    {
+      "bytes": 1645,
+      "path": "overlay/src/lib/agent/orb1/frac.ts",
+      "sha256": "4bacdf828cd675741095c562036df56335cd5bcbcd0698575d40ee33a5576829"
+    },
+    {
+      "bytes": 2650,
+      "path": "overlay/src/lib/agent/orb1/gaussian.ts",
+      "sha256": "b2461ec16a18e3449365e1845880ddb060f53a5c4f4c66b9b1696d10d00fdb13"
+    },
+    {
+      "bytes": 757,
+      "path": "overlay/src/lib/agent/orb1/index.ts",
+      "sha256": "2a828429b24d380629e36e99bd722f7827666af79cdd3e9ab3d03434a80fcbc9"
+    },
+    {
+      "bytes": 1053,
+      "path": "overlay/src/lib/agent/orb1/page.ts",
+      "sha256": "837508d0e0df9de697da8ad598b58db7a617b5649ff9a894636d45ccf265dbf9"
+    },
+    {
+      "bytes": 6896,
+      "path": "overlay/src/lib/agent/orb1/ring.ts",
+      "sha256": "6a453944c9025b9ff03da832c9af5cb3b47608bea56deeb60722d7ee58f5d4ef"
+    },
+    {
+      "bytes": 4645,
+      "path": "overlay/src/lib/agent/orb1/state.ts",
+      "sha256": "e128e012dc44c9aa82349daea2c8629e8a6c3c81b323b45b323dd0afff0eba47"
+    },
+    {
+      "bytes": 932,
+      "path": "overlay/src/lib/agent/orbita.ts",
+      "sha256": "b2e7e75b7614ccdded26ab7302fe11a9f2b7c0538be98f8af8a63bd02c1dc136"
+    },
+    {
+      "bytes": 762,
+      "path": "overlay/src/lib/agent/receipts.server.ts",
+      "sha256": "d17330c8f24a0d2f2aa609cce2770996b3d7eff014525352dec0c7fa0ba04bf1"
+    },
+    {
+      "bytes": 2588,
+      "path": "overlay/src/lib/agent/receipts.ts",
+      "sha256": "5bc8d05cd2760afd03a372a07ca714b8ff98280ce90882a91727531b885f6b6b"
+    },
+    {
+      "bytes": 5829,
+      "path": "overlay/src/lib/agent/tower/fibers.ts",
+      "sha256": "374a9e4039799e9d7cbce990a3c1fdfea989eaeaaf3673d75b529efc88731553"
+    },
+    {
+      "bytes": 478,
+      "path": "overlay/src/lib/agent/tower/index.ts",
+      "sha256": "73767c3a511b43ca69eacf4c802a8955a9da8e48b2e61b4b95a38030289f8880"
+    },
+    {
+      "bytes": 3826,
+      "path": "overlay/src/lib/agent/tower/pipeline.ts",
+      "sha256": "541b9a0d4870e70e05ce3357ea300902408122cf75d012b8fd397f5bf624f2f9"
+    },
+    {
+      "bytes": 3560,
+      "path": "overlay/src/lib/agent/tower/snapshot.ts",
+      "sha256": "3616caad8001474341c56dd6226e2f5657fdda594fb0888c25699590f7840bcc"
+    },
+    {
+      "bytes": 4151,
+      "path": "overlay/src/lib/agent/tower/worlds.ts",
+      "sha256": "003597f8cc6cf98c813823f7129fce71fc3c0a10faedf9eca21699b3df94617b"
+    },
+    {
+      "bytes": 2994,
+      "path": "overlay/src/lib/agent/types.ts",
+      "sha256": "c9af293afdb8bfdbd10299faf7629120e5db55a3c36ef8cce73ef0eeebc70f2d"
+    },
+    {
+      "bytes": 11891,
+      "path": "overlay/tests/flm-kernel.test.mjs",
+      "sha256": "f05fd50ae70f29f22b3c04cbd2fe19834fe2d75cf139c4e8207c3ab89abb9dc2"
+    }
+  ],
+  "policy": {
+    "blind_overwrite": false,
+    "candidate_adapters_require_diff": true,
+    "manuscripts_included": false,
+    "restore_guided_first": true
+  },
+  "schema": "guided-executable-systems-handoff/1",
+  "standalone": false,
+  "target": "restored Guided application tree"
+}

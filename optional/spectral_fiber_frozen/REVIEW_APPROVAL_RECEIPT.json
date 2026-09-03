@@ -1,0 +1,10 @@
+{
+  "tournament_id": "5e049619-ca04-4d4c-83c1-2f80635e8a69",
+  "review_hash": "b1c833eed7e74909bfae3f238478a74cc7bad5058b6e4cee3b3a1720f3217183",
+  "user_confirmation": "I reviewed this exact blind tournament",
+  "operator_id": "5528999e-16c6-4547-b6c8-ec27f89805c5",
+  "operator_review_hash": "1ddfbb9d82e992b3b95119775f5aead22bc669c9107916dd9d5184d0392a921c",
+  "operator_confirmation": "I reviewed this exact discovery operator",
+  "orbita_server_freeze_status": "BLOCKED_HTTP_403",
+  "note": "The user supplied both exact review phrases. OrbitaX freeze calls returned HTTP 403, so this local receipt preserves the reviewed hashes. No scientific rule below changes the reviewed tournament."
+}
